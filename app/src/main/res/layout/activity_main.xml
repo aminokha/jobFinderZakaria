@@ -27,6 +27,11 @@
 
                 android:text="Search for job" />
         </LinearLayout>
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="0dp"
+            android:layout_weight="" >
+        </Space>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -39,7 +44,7 @@
                 android:layout_height="89dp"
                 android:layout_gravity="center"
                 android:background="@drawable/style_button"
-                android:text="Worker" />
+                android:text="SEARCH FOR Worker" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
