@@ -34,6 +34,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
+                    android:tint="@color/colorPrimary"
                     android:src="@drawable/ic_email_black_24dp" />
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -62,6 +63,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
+                    android:tint="@color/colorPrimary"
                     android:src="@drawable/ic_pass_black_24dp" />
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -82,7 +84,7 @@
                 android:layout_margin="10dp"
                 android:textSize="18dp"
                 android:text="@string/forgot_password"
-                android:textColor="@color/colorAccent" />
+                android:textColor="@color/colorPrimary" />
 
             <Button
                 android:id="@+id/btnSignIn"
@@ -103,7 +105,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:textSize="18dp"
-                android:textColor="@color/colorAccent"
+                android:textColor="@color/colorPrimary"
                 android:text="@string/you_don_t_have_account"
                 />
         </LinearLayout>
