@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#4bcfe4</color>
-    <color name="colorPrimaryDark">#008fa6</color>
-    <color name="colorAccent">#bae9f1</color>
+    <color name="colorPrimary">#1E88E5</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#1E88E5</color>
+    <color name="colorControllHighlight">#008DCD</color>
+    <color name="colorControllNormall">#008DCD</color>
+    <color name="main_tab_background">#ffffffff</color>
+    <color name="main_tab_indicator_color">#ff71bce9</color>
+    <color name="main_tab_selected_text_color">#ff007cc9</color>
+    <color name="main_tab_text_color">#ff007cc9</color>
+    <color name="design_default_color_primary">#ff3f51b5</color>
+    <color name="design_default_color_primary_dark">#ff303f9f</color>
+    <color name="design_menu_bg">#ffffffff</color>
+    <color name="design_menu_text_color">#ff000000</color>
+    <color name="design_tab_background">#ff008dcd</color>
+    <color name="design_tab_indicator_color">#ff57beee</color>
+    <color name="design_tab_selected_text_color">#ffffffff</color>
+    <color name="design_tab_text_color">#ffa8cde9</color>
+    <color name="transparent">#00FFFFFF</color>
 </resources>
