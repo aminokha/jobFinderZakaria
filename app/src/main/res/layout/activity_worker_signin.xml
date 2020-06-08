@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/walpsigin"
     tools:context=".Worker.WorkerSignin">
 
     <LinearLayout
@@ -21,7 +21,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/phone_number"
             android:inputType="phone"
-            android:textSize="34sp"
+            android:layout_marginStart="25dp"
+            android:textSize="20sp"
             app:met_baseColor="@android:color/black"
             app:met_floatingLabel="highlight"
             app:met_maxCharacters="15"
@@ -34,7 +35,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/password"
             android:inputType="textPassword"
-            android:textSize="34sp"
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
             app:met_baseColor="@android:color/black"
             app:met_floatingLabel="highlight"
             app:met_maxCharacters="11"
@@ -55,6 +57,7 @@
                 android:gravity="center_vertical"
                 android:text="@string/remember_me"
                 android:textColor="@android:color/black"
+                android:layout_marginStart="25dp"
                 android:textSize="17sp"
                 app:cbd_strokeColor="@android:color/black" />
 
@@ -62,6 +65,7 @@
                 android:id="@+id/forgot_password_Worker"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
                 android:layout_weight="1"
                 android:gravity="end"
                 android:text="@string/forgot_password"
@@ -74,10 +78,12 @@
 
     <Button
         android:id="@+id/btnSignIn_Worker"
-        android:layout_width="match_parent"
+        android:layout_width="208dp"
         android:layout_height="wrap_content"
         android:layout_above="@+id/to_sign_up_Worker"
-        android:layout_margin="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="111dp"
         android:background="@drawable/style_button"
         android:text="@string/sign_in"
         android:textColor="@android:color/black" />
