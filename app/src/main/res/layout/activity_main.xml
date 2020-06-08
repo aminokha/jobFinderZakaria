@@ -11,30 +11,39 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="18dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
 
             <Button
                 android:id="@+id/searchforjob"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Search for job" />
+                android:text="Search for job"
+                android:background="@drawable/btnsr"
+                android:textColor="#ffffff"
+                android:padding="10dp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
 
             <Button
                 android:id="@+id/worker"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Worker" />
+                android:text="Worker"
+                android:background="@drawable/btnsr"
+                android:textColor="#ffffff"
+                android:padding="10dp"/>
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

@@ -106,8 +106,6 @@
                 android:textColor="@color/colorAccent"
                 android:text="@string/you_don_t_have_account"
                 />
-
-
         </LinearLayout>
 
 
