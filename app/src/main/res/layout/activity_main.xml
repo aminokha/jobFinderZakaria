@@ -20,8 +20,8 @@
 
             <Button
                 android:id="@+id/searchforjob"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="112dp"
+                android:layout_height="89dp"
                 android:layout_gravity="center"
                 android:background="@drawable/style_button"
 
@@ -33,10 +33,12 @@
             android:layout_height="wrap_content">
 
             <Button
+
                 android:id="@+id/worker"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="112dp"
+                android:layout_height="89dp"
                 android:layout_gravity="center"
+                android:background="@drawable/style_button"
                 android:text="Worker" />
         </LinearLayout>
     </LinearLayout>
